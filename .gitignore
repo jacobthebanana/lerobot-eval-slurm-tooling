@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Output files
+output/
+
+# SLURM logs
+slurm-*.out
+slurm-*.err
+xvla-libero-*.out
+xvla-libero-*.err
+*.err
+logs/
+_monitor_eval_jobs.sh
+
+# Generated output
+output_fixed/
+
+# uv lock file (auto-generated)
+uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store

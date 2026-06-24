@@ -1,0 +1,2 @@
+1. Store large files (model weights, datasets) under $SCRATCH.
+2. Use astral-uv `uv` for virtual environment, and use $SCRATCH/uv-venv/(folder name) for the virtual environment. Important: do not create virtual environments in the home directory (including this folder)- only in $SCRATCH.
